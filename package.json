@@ -1,0 +1,19 @@
+{
+  "name": "learn-nextjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node server",
+    "build": "next build && next export"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "express": "^4.16.2",
+    "next": "^4.1.4",
+    "next-style-loader": "^0.3.1",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "redux": "^3.7.2"
+  }
+}
